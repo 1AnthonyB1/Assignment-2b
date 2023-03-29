@@ -1,8 +1,8 @@
 import math
 pi = math.pi
-d = input()
-
+d = float(input("What is the diamatre of your circle? "))
 r = (float(d)/2)
+
 print("This is the Radius:",float(r))
 
 rsquared = float(r**2)
